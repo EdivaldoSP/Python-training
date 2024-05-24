@@ -1,0 +1,6 @@
+n = input('Digite um valor: ')
+print(f'O tipo primitivo é: {type(n)}')
+print(f'O valor é numérico: {n.isnumeric()}')
+print(f'O valor é alfabético: {n.isalpha()}')
+print(f'O valor é alfanumérico: {n.isalnum()}')
+print(f'O valor  é um espaço: {n.isspace()}')
