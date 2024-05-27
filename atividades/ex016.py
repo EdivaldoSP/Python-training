@@ -4,7 +4,7 @@ import time
 print('{:=^30}'.format("| SEJA BEM VINDO (A) |"))
 
 num = float(input('--> Digite um número real \n(Exemplo: 1.98632... etc): '))
-inteira = math.floor(num)
+inteira = math.trunc(num)
 
 print('Calculando, aguarde...')
 
